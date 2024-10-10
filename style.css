@@ -22,3 +22,47 @@ img{
 p{
     color: yellow;
 }
+
+.cardapiotxt{
+    text-align: center;
+}
+
+.coisas{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.produtos{
+    width: 200px;
+    height: 240px;
+    border: 5px solid;
+    border-color: lightgray;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 10px;
+    font-family:'Lucida Sans', Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+
+.produtos:hover{
+    background-color: lightgray;
+    transition: 0.1s;
+}
+
+.produtos img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.produtos h3{
+    line-height: 0px;
+}
+
+.cardapio h1{
+    padding-left: 30px;
+    padding-top: 100px;
+    font-family:'Lucida Sans', Arial, Helvetica, sans-serif;
+}
